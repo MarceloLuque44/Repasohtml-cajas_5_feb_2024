@@ -1,0 +1,148 @@
+#contenedor
+{
+    width: 600px;
+    height: 2000px;
+    background-color: indianred;
+    margin: auto;
+}
+#caja1
+{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    display: inline-block;
+    position: relative; /*absolute toma desde el tamaño del dispositivo
+    relative es respecto a su padre*/
+    left: 200px;
+    top: 200px;
+}
+#caja2
+{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    display: inline-block;/*esto lo coloca todo en la misma linea*/
+    margin: auto;
+    position: relative;
+    right: 50px;
+}
+#caja3
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    top: 100px;
+    
+}
+#caja4
+{
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+    position: sticky;
+    top: 200px;
+    left: 200px;
+}
+#caja4-1
+{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    position: relative;
+    left: 50px;
+    display: inline-block;
+    transform: rotate(45deg); /*rota*/
+}
+#caja4-2
+{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    position: relative;
+    left: 180px;/*
+    display: inline-block;*/
+    border-radius: 100%;
+
+}
+
+
+
+#cara
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(207, 91, 14, 0.856);
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0px;
+}
+/*
+#ojo
+{
+    width: 40px;
+    height: 40px;
+    background-color: beige;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    left: 30px;
+    top:10px;
+    border-radius:40%;
+
+}
+#pupila
+{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    margin: 10px;
+    left: 5px;
+    top: 5px;
+    border-radius: 80%;
+
+}
+#nariz
+{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: relative;
+    margin: 3px;
+    left: 80px;
+    border-radius: 30%;
+}
+#boca
+{
+    width: 60px;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+    margin: 10px;
+    left: 40px;
+    border-radius: 40%;
+}
+
+*/
+#oreja1
+{
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    background-color: rgba(207, 91, 14, 0.856);
+    position: relative;
+    bottom: 120px;
+    
+    border-radius: 100%;
+    margin: 0;
+}
+#torso
+{
+    width: 240px;
+    height: 270px;
+    background-color: brown;
+    position: relative;
+    margin: 10px;
+    border-radius: 100%;
+}
